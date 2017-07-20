@@ -53,7 +53,9 @@ The output of function **average_lines** is in "slope" and "intercept" form. I d
 
 Next, I defined another function **lane_lines** which uses **average_lines** to obtain the averaged left and right lanes in slope-intercept form and converts them to pixels using **line2pixels**. The output of this function is again *left_lane* and *right_lane* but in (x,y) form.
 
-Finally, function **draw_lines** takes the original image and the output of **lane_lines** as inputs and draws the averaged lane lines in the corresponding location on the original image.  
+Finally, function **draw_lines** takes the original image and the output of **lane_lines** as inputs and draws the averaged lane lines in the corresponding location on the original image. The output image is shown in the following.
+
+![alt text][image6]
 
 
 ## 2. Identify potential shortcomings with your current pipeline
