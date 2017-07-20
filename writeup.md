@@ -25,18 +25,23 @@
 The initial pipeline consisted of the following steps. 
 
 1- Convert the image to grayscale.
+
 ![alt text][image1]
 
 2- Apply a Gaussian smoothing filter.
+
 ![alt text][image2]
 
 3- Use Canny algorithm to obtain the edges in the image.
+
 ![alt text][image3]
 
 4- Apply a polynomial mask to focus on the desired area of the image that we expect to see the lines.
+
 ![alt text][image4]
 
 5- Apply a Hough transform to the detected edges, to get lines.
+
 ![alt text][image5]
 
 ### 2. Averaging the lines
